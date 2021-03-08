@@ -27,7 +27,7 @@ void Utils::printBlocks(uint8_t **blocks, size_t n, size_t blockSize)
 {
 
     for (size_t i = 0; i < n; i++) {
-        printf("Block %lu (%p): ", i, blocks[i]);
+        printf("Block %lu: ", i);
         for (size_t j = 0; j < blockSize; j++) {
             printf("%3u ", blocks[i][j]);
         }

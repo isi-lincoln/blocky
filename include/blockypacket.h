@@ -9,6 +9,8 @@
 #ifndef _BLOCKYPACKET_H
 #define _BLOCKYPACKET_H
 
+#include <cstdint>
+
 namespace blocky {
 
 /*! @brief Network Coded Packet */
